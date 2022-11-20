@@ -1,3 +1,5 @@
+*.csharp linguistic-detectable=true
+
 Console.WriteLine("Please insert your first name: ");
 string firstName = Console.ReadLine();
 Console.WriteLine("Please insert your middle name: ");
