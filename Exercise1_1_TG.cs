@@ -37,7 +37,8 @@ Console.WriteLine("Gender is " + gender);
 //F
 Console.WriteLine("Age is " + (2022 - birthYear));
 //G
-//GX se não metes alternativa ao 3rd, todas as datas vão sair com esse formato
+//GX se não metes alternativa ao 3rd, todas as datas vão sair com esse formato. 
+//Se não especificas o formato que queres o mês, vais ter gente a preencher 03 em vez de escrever Março
 Console.WriteLine($"Birthdate is {birthDay}rd of {birthMonth} of {birthYear}");
 //H
 Console.WriteLine("Current job is " + currentJob);
