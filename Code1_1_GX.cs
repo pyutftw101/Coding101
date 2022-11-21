@@ -105,6 +105,6 @@ else
 //h
 Console.WriteLine("Your current job is {0}.", currentJob);
 //i
-Console.WriteLine("Your current height is " + height + " meters.");
+Console.WriteLine("Your current height is {0} meters", height;
 //j
 Console.WriteLine("Your eye colour is {0}.", eyeColour);
