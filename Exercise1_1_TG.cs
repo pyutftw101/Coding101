@@ -37,10 +37,12 @@ Console.WriteLine("Gender is " + gender);
 //F
 Console.WriteLine("Age is " + (2022 - birthYear));
 //G
+//GX se não metes alternativa ao 3rd, todas as datas vão sair com esse formato
 Console.WriteLine($"Birthdate is {birthDay}rd of {birthMonth} of {birthYear}");
 //H
 Console.WriteLine("Current job is " + currentJob);
 //I
+//GX Console.WriteLine("Current height is {0} meters", height);
 Console.WriteLine("Current height is " + height + " meters");
 //J
 Console.WriteLine("Eye color is " + eyeColor);
