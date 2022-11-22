@@ -39,12 +39,27 @@ Console.WriteLine("Age is " + (2022 - birthYear));
 //G
 //GX se não metes alternativa ao 3rd, todas as datas vão sair com esse formato. 
 //Se não especificas o formato que queres o mês, vais ter gente a preencher 03 em vez de escrever Março
-Console.WriteLine($"Birthdate is {birthDay}rd of {birthMonth} of {birthYear}");
+if (birthDay == 01 || birthDay == 21 || birthDay == 31)
+{
+    Console.WriteLine("Your birthdate is {0}st of {1} of {2}.", birthDay, birthMonth, birthYear);
+}
+else if (birthDay == 02 || birthDay == 22)
+{ 
+    Console.WriteLine("Your birthdate is {0}nd of {1} of {2}.", birthDay, birthMonth, birthYear);
+}
+else if (birthDay == 03 || birthDay == 23)
+{ 
+    Console.WriteLine("Your birthdate is {0}rd of {1} of {2}.", birthDay, birthMonth, birthYear);
+}
+else
+{
+    Console.WriteLine("Your birthdate is {0}th of {1} of {2}.", birthDay, birthMonth, birthYear);
+}
 //H
 Console.WriteLine("Current job is " + currentJob);
 //I
 //GX Console.WriteLine("Current height is {0} meters", height);
-Console.WriteLine("Current height is " + height + " meters");
+Console.WriteLine("Current height is {0} meteres", height);
 //J
 Console.WriteLine("Eye color is " + eyeColor);
 //K
