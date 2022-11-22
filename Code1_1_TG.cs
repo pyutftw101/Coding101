@@ -6,7 +6,7 @@ Console.WriteLine("Please insert your last name: ");
 string lastName = Console.ReadLine();
 Console.WriteLine("Plese insert your birth day: ");
 int birthDay = int.Parse(Console.ReadLine());
-Console.WriteLine("Please insert your birth month: ");
+Console.WriteLine("Please insert your birth month: (Ex: January)");
 string birthMonth = Console.ReadLine();
 Console.WriteLine("Please insert your birth year: ");
 int birthYear = int.Parse(Console.ReadLine());
