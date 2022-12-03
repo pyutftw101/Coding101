@@ -6,7 +6,7 @@ Console.WriteLine("Please insert your last name: ");
 string lastName = Console.ReadLine();
 Console.WriteLine("Plese insert your birth day: ");
 int birthDay = int.Parse(Console.ReadLine());
-Console.WriteLine("Please insert your birth month: (Ex: January)");
+Console.WriteLine("Please insert your birth month: (Ex: 01)");
 string birthMonth = Console.ReadLine();
 Console.WriteLine("Please insert your birth year: ");
 int birthYear = int.Parse(Console.ReadLine());
@@ -21,6 +21,56 @@ string eyeColor = Console.ReadLine();
 Console.WriteLine("Plese insert additional information: ");
 string additionalInfo = Console.ReadLine();
 
+switch(birthMonth) 
+{
+  case "01":
+        birthMonth = January
+    break;
+        
+case "02":
+        birthMonth = February
+    break;
+        
+case "03":
+        birthMonth = March
+    break;
+        
+case "04":
+        birthMonth = April
+    break;
+        
+case "05":
+        birthMonth = May
+    break;
+        
+case "06":
+        birthMonth = June
+    break;
+        
+case "07":
+        birthMonth = July
+    break;
+        
+case "08":
+        birthMonth = August
+    break;
+        
+case "09":
+        birthMonth = September
+    break;
+        
+case "10":
+        birthMonth = October
+    break;
+        
+case "11":
+        birthMonth = November
+    break;
+        
+case "12":
+        birthMonth = December
+    break;
+}
 Console.WriteLine();
 Console.WriteLine("This is an application to display user information:");
 Console.WriteLine();
