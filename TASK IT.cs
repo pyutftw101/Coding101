@@ -37,11 +37,15 @@ class ToDoList
                     string name = Console.ReadLine();
                     Console.Write("Enter task description: ");
                     string description = Console.ReadLine();
-                    Console.Write("Enter task due date and time (yyyy-mm-dd hh:mm): ");
-                    DateTime dateTime = DateTime.Parse(Console.ReadLine());
+                    Console.Write("Enter task due date (yyyy-mm-dd): ");
+                    string date = Console.ReadLine();
+                    Console.Write("Enter task due time (hh:mm): ");
+                    string time = Console.ReadLine();
+                    DateTime dateTime = DateTime.Parse(date + " " + time);
                     toDoList.Add(new ToDoTask(name, description, dateTime));
                     Console.WriteLine("Task added!");
                     break;
+
                 case 2:
                     Console.Write("Enter task number to remove: ");
                     int taskNum = int.Parse(Console.ReadLine());
